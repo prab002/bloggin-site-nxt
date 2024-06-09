@@ -7,9 +7,10 @@ const Navbar = () => {
       <nav className="flex items-start justify-between">
         <Link href={"/"}>Blog</Link>
         <div className="flex gap-2">
-          <Link href={"/profile"}>profile</Link>
           <Link href={"/create"}>create</Link>
-          <Link href={"/logout"}>logOut</Link>
+          <Link href={"/login"}>login</Link>
+          <Link href={"/saved"}>savd</Link>
+          <Link href={"/register"}>register</Link>
         </div>
       </nav>
     </div>
