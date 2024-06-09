@@ -1,7 +1,9 @@
-export default function Home() {
+import Home from "@/components/Home";
+
+export default function HomePage() {
   return (
-    <div>
-      <h1 className="text-2xl">Bloggin site</h1>
+    <div >
+      <Home />
     </div>
   );
 }
